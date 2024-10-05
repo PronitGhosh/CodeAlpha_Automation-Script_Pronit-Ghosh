@@ -1,6 +1,8 @@
 import os
 import shutil
 from pathlib import Path
+print("Press 1 for File organisation")
+print("Press 2 for data cleaning / file deletion")
 choice=int(input("Enter your choice"))
 folder_to_organize =input("Enter the path: ")
 extensions_folders = {
